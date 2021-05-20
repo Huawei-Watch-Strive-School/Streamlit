@@ -3,8 +3,8 @@ import base64
 from PIL import Image
 import webbrowser
 
-def write():
-    st.title("Our project :car:")
+def pages():
+    st.title("Home")
     st.markdown(
            """## About the project
 
@@ -41,5 +41,5 @@ def dummy_fun():
     elif st.button('Agathiya Raja'):
         webbrowser.open_new_tab('https://www.linkedin.com/in/agathiya-raja-62877213b/')
 
-write()
+pages()
 dummy_fun()

@@ -1,14 +1,10 @@
 import streamlit as st
-import pandas as pd
-import numpy as np
 from PIL import Image
-import plotly.figure_factory as ff
-import plotly.express as px
-import time
 
-def write():
 
-    st.title("Best Books of the 20th century :books:")
+def pages():
+
+    st.title("Graphext models")
     st.header("""**Description**: """)
     st.markdown(
             """ 
@@ -152,3 +148,4 @@ So without wasting any time, \n
     st.write("\n")
     st.markdown("- The probability of a book that is part of a series has won an award is: 60.89 %")
     st.markdown("- The probability of a fictinal book being in top 50 is:   90%")
+    pages()

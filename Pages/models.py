@@ -4,7 +4,7 @@ import streamlit as st
 import webbrowser
 from PIL import Image
 
-def write():
+def pages():
     st.title("Chamber of Secerets :door:")
     st.write("\n")
     st.write("\n")
@@ -48,3 +48,4 @@ def write():
         riddle()
         solution()
         team()
+        pages()
